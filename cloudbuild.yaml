@@ -11,3 +11,5 @@ steps:
   args: ['run', 'deploy', 'runwithcicd', '--image', 'gcr.io/profound-matter-446906-r5/runimage', '--region', 'us-central1', '--allow-unauthenticated']
 images:
 - gcr.io/profound-matter-446906-r5/runimage
+options:
+  logging : CLOUD_LOGGING_ONLY
